@@ -1,0 +1,33 @@
+			
+			table{
+				color: blue; 
+				top:50%; 
+				left:50%; 
+				position:absolute; 
+				margin-top:-260px; 
+				margin-left:-274px;
+				border-collapse: collapse;
+                border-style: solid;
+
+ 
+			}
+			td{
+                height:50px;
+                width: 50px;
+                text-align: center;
+                border-style: solid;
+                border-width: 2px;
+                border-color: rgb(50, 142, 179);
+             
+			
+            }
+			
+			.bold{
+                height:100%;
+                width: 100%; 
+                padding-top: 25%;
+                background-color: powderblue;
+                color:red;
+                font-weight: bold; 
+				font-size: 20px
+			}

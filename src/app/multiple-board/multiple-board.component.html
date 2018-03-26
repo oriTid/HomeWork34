@@ -1,0 +1,11 @@
+
+<table>
+<tr  *ngFor = "let a of multiArray ; let r=index">
+    <td  *ngFor = "let b of multiArray ; let c=index" >
+       <div *ngIf="r==0" class="bold"> {{a * b}}</div>
+       <div *ngIf="c==0 && r>0" class="bold"> {{a * b}}</div>
+       <div *ngIf="r>0 && c>0"> {{a * b}}</div>
+</td>
+</tr>
+
+</table>
